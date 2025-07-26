@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website - Easy Tutorials</title>
+    <link rel="stylesheet" href="./My_personal_portifolio.css">
+    <script src="https://kit.fontawesome.com/f984d35e49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div id="header">
+ <div class="container">
+    <nav class="nav">
+        
+        <h1>Bhavana</h1>
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Projects</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark"  onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="nav-heading">
+    <div class="header-text">
+        <p>Software Developer</p>
+        <h1>Hi, I'm <span>Bhavana</span> <br>Sanagala From Tirupati</h1>
+    </div>
+    <div class="img">
+
+    </div>
+    </div>
+
+ </div>
+</div>
+<!---------------about---------------->
+<div id="about">
+   <div class="container">
+       <div class="row">
+            <div class="about-col-1">
+                <img src="./2.jpg" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As a recent Computer Science and Engineering graduate with a specialization in Artificial Intelligence and Data Science from Sree Rama Engineering College, I'm excited to embark on a career in the software industry. With a solid foundation in programming and a passion for innovation, I'm eager to apply my skills and knowledge to drive impactful solutions. I'm a quick learner, team player, and enthusiastic about staying up-to-date with industry trends. Let's connect and explore opportunities to collaborate and grow.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                         <p class="tab-links" onclick="opentab('experience')">Internships</p>
+                         
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2025</span><br>B.Tech <br> Computer Science Engineering(AI&DS) <br>Sree Rama Engineering College[SREC], Tirupati <br>89.6% </li>
+                            <li><span>2021</span><br>Intermediate <br>Gitam junior College, Tirupati <br>9.17 CGPA</li>
+                            <li><span>2019</span><br>10th <br>Municipal Corporation High Science, Tirupati <br>9.0 CGPA</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Java</span><br>Java programming with a strong foundation in building efficient, reliable, and dynamic software solutions</li>
+                            <li><span>Web Development</span><br>HTML <br>CSS <br>Javascript</li>
+                            <li><span>SQL</span><br>SQL with expertise in designing, implementing, and managing databases to store and retrieve data efficiently</li>
+                            <li><span>JDBC</span><br>JDBC (Java Database Connectivity) for seamless interaction between Java applications and databases, enabling efficient data storage and retrieva</li>
+                        
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>May 24 - Aug 24</span><br><b>CodeTantra :  </b><br> RESTFUL API USING SPRING BOOT : <br><span>Description : </span>Developed an RESTful APIfor CRUD operations(Create, Delete, Update, Read) using Java, Spring Boot, Mongo DB, and Postman for testing. </li>
+                            <li><span>Apr 23- May 23</span><br><b>Oasis InfoByte : </b><br>LANDING PAGE : <br> <span>Description :</span> During this internship I developed “Landing page” by using Basics HTML and CSS, A landing page is a webpage designed to capture visitors' attention and encourage them to take a specific action, like signing up, making a purchase, or downloading something. </li>
+                            
+                        </ul>
+                    </div>
+                    
+            </div>
+       </div>
+   </div>
+</div>
+<!---------------projects-------------->  
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Projects</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2 >CONTRIBUTORY BROADCAST ENCRYPTION WITH EFFICIENT ENCRYPTION AND SHORT CIPHERTEXTS</h2>
+                 <h4>Technologies Used : Java</h4>
+                <p>The scheme with efficient encryption and short ciphertexts allows for secure and compact transmission of data to a large group of users, reducing computational overhead and communica tion costs.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>PERSONAL PORTFOLIO</h2>
+                <h4>Technologies Used : HTML, CSS.</h4>
+                <p>Developed “Personal Portfolio” by using HTML and CSS .A personal portfolio project showcases your skills, experience, and achievements.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>AMAZON WEBPAGE</h2>
+                <h4>Technologies Used : HTML, CSS.</h4>
+                <p>Developed “Amazon webpage” by using HTML and CSS.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------portfolio------------------->
+<div id="portfolio">
+  <div class="container"></div>
+    <!-- <div class="title1">
+     <h1 class="sub-title">My Work </h1>
+     <h1 class="sub-title">My Work</h1>
+     <h1 class="sub-title">My Work</h1>
+     </div> -->
+    <b><pre style="font-size: 47px;">Certifications                  Achievements              Interest And Hobbies </pre></b> 
+    <div class="work-list">
+      <div class="work">
+        <img src="https://img.freepik.com/premium-vector/certificate-achievement-template_825081-627.jpg?semt=ais_hybrid&w=740&q=80">
+        <!-- <big><p> * Certified from <b>Udemy </b>in java</p></big> -->
+
+         <div class="layer">
+            <h1>Udemy</h1>
+            <p>Certified from <b>Udemy </b>in java</p>
+            <h1>OASIS INFOBYTE </h1>
+            <p>Certified from <b>OASIS INFOBYTE</b> for successful completion of a <b>one-month internship Web Development</b>.</p>
+            <h1>CODETANTRA</h1>
+            <p><b>Internship</b> certificate received from <b>CODETANTRA </b>.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a> 
+         </div>
+      </div> 
+    <div class="work">
+      <img src="https://img.freepik.com/free-vector/education-success-golden-cup_3446-335.jpg">
+        <div class="layer">
+            <h1>District-level - Volleyball Runner </h1>
+            <!-- <p>I got Achieved <b>District-level </b>recognition as a <b>Volleyball </b></p> -->
+            <h1>Poster Presentation - 1st prize  </h1>
+            <!-- <p>I got<b> PP 1st prize</b> in my college</p> -->
+            <h1>Coding - 2st prize  </h1>
+            <!-- <p>I got<b> 2st prize<b> in <b>Coding</b> competition in my college <b>AVISHKAR -2024</b></p> -->
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            
+        </div>
+    </div>
+       <div class="work">
+         <img src="https://images.stockcake.com/public/d/8/f/d8f45ea1-9bd5-4b09-a209-7c90ce95870c_large/art-workshop-gathering-stockcake.jpg">
+          <div class="layer">
+            <h1>Drawing</h1>
+            <h1>Listening Music</h1>
+            <h1>Designing</h1>
+            <p>In my free time, I enjoy expressing my creativity through drawing, designing, and composing melodic music.</p>
+            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+       </div>
+    </div> 
+    <a href="#" class="btn">See more</a>    
+  </div>      
+</div>
+<!---------------contact-------------->
+<div id="contact">
+  <div class="container">
+     <div class="row">
+        <div class="contact-left">
+           <h1 class="sub-title">Contact Me</h1>
+           <p><i class="fa-solid fa-paper-plane"></i>  sanagalabhavana49@gmail.com</p>
+           <p><i class="fa-solid fa-square-phone"></i>  91+9346249443</p>
+           <div class="social-icons">
+               
+               <a href="https://github.com/sanagalabhavana/Personal-Portfolio"><i class="fa-brands fa-github"></i></a>
+               <a href="https://www.linkedin.com/in/bhavana-sanagala-614765252"><i class="fa-brands fa-linkedin"></i></a>
+               <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+               <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+           </div>
+           <a href="./resume.jpg" Download class="btn btn2"> C V Download</a>
+        </div>
+        <div class="contact-right"></div>
+        <form>
+            <input type="text" name="Name" placeholder="Your name" required>
+            <input type="text" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+            <button type="submit" class="btn btn2">submit</button>
+        </form>
+        </div>
+     </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Bhavana. made with <i class="fa-solid fa-heart"></i> by Easy Tutorials</p>
+    </div>
+</div>
+<script>
+     var tablinks  = document.getElementsByClassName("tab-links");
+     var tabcontents  = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+<script>
+   var sidemenu = document.getElementById("sidemenu");
+
+   function openmenu(){
+          sidemenu.style.right="0";
+   }
+   function closemenu(){
+    sidemenu.style.right = "-200px";
+   }
+
+
+</script>
+    
+</body>
+</html>
